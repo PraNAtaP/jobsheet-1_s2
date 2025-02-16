@@ -33,7 +33,7 @@ public class TugasNo3_19 {
             System.out.println("1. Tampilkan seluruh jadwal kuliah");
             System.out.println("2. Tampilkan jadwal kuliah berdasarkan hari");
             System.out.println("3. Tampilkan jadwal kuliah berdasarkan semester");
-            System.out.println("4. Cari mata kuliah berdasarkan nama");
+            System.out.println("4. Cari mata kuliah");
             System.out.println("5. Keluar");
             System.out.print("Pilih menu: ");
             menu = input.nextInt();
