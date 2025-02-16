@@ -16,7 +16,7 @@ public class TugasNo2_19 {
             pilihan = scanner.nextInt();
 
             if (pilihan >= 1 && pilihan <= 3) {
-                System.out.print("Masukkan panjang sisi kubus : ");
+                System.out.print("Masukkan panjang sisinya : ");
                 double sisi = scanner.nextDouble();
 
                 switch (pilihan) {
