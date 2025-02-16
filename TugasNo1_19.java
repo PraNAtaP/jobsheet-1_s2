@@ -4,8 +4,8 @@ public class TugasNo1_19 {
      public static void main(String[] args) {
         Scanner input19 = new Scanner(System.in);
 
-        char[] KODE = {'A', 'B', 'D', 'E', 'F', 'G', 'H', 'L', 'N', 'T'};        
-        char[][] KOTA = {
+        char[] kode = {'A', 'B', 'D', 'E', 'F', 'G', 'H', 'L', 'N', 'T'};        
+        char[][] kota = {
             {'B', 'A', 'N', 'T', 'E', 'N', ' ', ' ', ' ', ' ', ' ', ' '},
             {'J', 'A', 'K', 'A', 'R', 'T', 'A', ' ', ' ', ' ', ' ', ' '},
             {'B', 'A', 'N', 'D', 'U', 'N', 'G', ' ', ' ', ' ', ' ', ' '},
@@ -23,8 +23,8 @@ public class TugasNo1_19 {
         char kodePlat = input19.next().charAt(0);
         
         int index = -1;
-        for (int i = 0; i < KODE.length; i++) {
-            if (KODE[i] == kodePlat) {
+        for (int i = 0; i < kode.length; i++) {
+            if (kode[i] == kodePlat) {
                 index = i;
                 break;
             }
@@ -32,12 +32,12 @@ public class TugasNo1_19 {
         
         if (index != -1) {
             System.out.print("Kota untuk kode plat " + kodePlat + " adalah: ");
-            for (int j = 0; j < KOTA[index].length; j++) {
-                System.out.print(KOTA[index][j]);
+            for (int j = 0; j < kota[index].length; j++) {
+                System.out.print(kota[index][j]);
             }
             System.out.println();
         } else {
-            System.out.println("Kode plat tidak ditemukan.");
+            System.out.println("kode plat tidak ditemukan.");
         }
         
         input19.close();
